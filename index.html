@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuri Celulares - Venda de Canais</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --azul-yuri: #007bff;
+            --amarelo-yuri: #fbc02d;
+            --escuro: #1a1a1a;
+            --texto-claro: #ffffff;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--escuro);
+            color: var(--texto-claro);
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            padding: 40px 20px;
+            background: linear-gradient(180deg, #333 0%, #1a1a1a 100%);
+            border-bottom: 4px solid var(--azul-yuri);
+        }
+
+        .mascote {
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid var(--amarelo-yuri);
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: var(--azul-yuri);
+            font-size: 24px;
+        }
+
+        .highlight {
+            color: var(--amarelo-yuri);
+        }
+
+        .step-box {
+            background: #222;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border: 1px solid #444;
+        }
+
+        .btn-link {
+            display: inline-block;
+            background-color: var(--azul-yuri);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 15px;
+            transition: transform 0.3s;
+        }
+
+        .btn-link:hover {
+            transform: scale(1.05);
+            background-color: #0056b3;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporção 16:9 */
+            height: 0;
+            overflow: hidden;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #128c7e;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: #777;
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>YURI CELULARES</h1>
+        <p>Olá, seja bem-vindo ao site de vendas de canais do Yuri!</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="step-box">
+            <h2>PASSO 1: Escolha seu Aplicativo</h2>
+            <p>Clique no link abaixo para ver a lista de aplicativos e <span class="highlight">escolha um código</span> para o seu TV Box.</p>
+            <a href="https://lojasat.com" target="_blank" class="btn-link">Ver Códigos de Aplicativos</a>
+        </div>
+
+        <div class="step-box">
+            <h2>PASSO 2: Assista ao Passo a Passo</h2>
+            <p>Agora que você tem o código, veja o vídeo abaixo para aprender como instalar usando o aplicativo <strong>Downloader</strong>:</p>
+            
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/LvGxMykEgAY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="step-box">
+            <h2>PASSO 3: Ative seus Canais</h2>
+            <p>Já instalou? Agora é só me chamar no WhatsApp para liberar seu acesso!</p>
+            <a href="https://wa.me/5511975719510?text=Olá Yuri, já escolhi o aplicativo e quero ativar meus canais!" class="btn-link" style="background-color: #25d366;">Ativar Agora via WhatsApp</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Yuri Celulares - Todos os direitos reservados.</p>
+        </div>
+    </div>
+
+    <a href="https://wa.me/5511975719510?text=Vim pelo site e preciso de ajuda com canais" class="whatsapp-float" target="_blank">
+        Atendimento no Zap
+    </a>
+
+</body>
+</html>
