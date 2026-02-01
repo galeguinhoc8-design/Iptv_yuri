@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+[16:39, 01/02/2026] Yuri celulares: <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -7,135 +7,117 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --cor-fundo: #0a0a0c;
-            --cor-card: rgba(30, 30, 30, 0.7);
-            --cor-primaria: #00d4ff; /* Azul Neon */
-            --cor-secundaria: #fbc02d; /* Amarelo Ouro */
-            --cor-texto: #e0e0e0;
-            --cor-pagamento: #ff4d00;
+            --cor-fundo: #121212;
+            --cor-card: #1e1e1e;
+            --cor-primaria: #007bff;
+            --cor-secundaria: #fbc02d;
+            --cor-texto: #ffffff;
+            --cor-pagamento: #ff5722;
             --cor-whatsapp: #25d366;
             --cor-pix: #32bcad;
-            --brilho-neon: 0 0 15px rgba(0, 212, 255, 0.3);
         }
 
-        body { 
-            font-family: 'Poppins', sans-serif; 
-            background-color: var(--cor-fundo); 
-            background-image: 
-                radial-gradient(circle at 50% 50%, rgba(0, 212, 255, 0.05) 0%, transparent 80%),
-                linear-gradient(rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)),
-                url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
-            color: var(--cor-texto); 
-            margin: 0; padding: 0; line-height: 1.6; 
+        body { font-family: 'Poppins', sans-serif; background-color: var(--cor-fundo); color: var(--cor-texto); margin: 0; padding: 0; line…
+[17:01, 01/02/2026] Yuri celulares: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuri Canais - Tutorial IPTV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cor-fundo: #121212;
+            --cor-card: #1e1e1e;
+            --cor-primaria: #007bff;
+            --cor-secundaria: #fbc02d;
+            --cor-texto: #ffffff;
+            --cor-pagamento: #ff5722;
+            --cor-whatsapp: #25d366;
+            --cor-pix: #32bcad;
         }
 
+        body { font-family: 'Poppins', sans-serif; background-color: var(--cor-fundo); color: var(--cor-texto); margin: 0; padding: 0; line-height: 1.6; }
         .container { max-width: 900px; margin: 0 auto; padding: 20px; position: relative; }
         
-        header { 
-            text-align: center; padding: 60px 0; 
-            border-bottom: 2px solid var(--cor-primaria); 
-            margin-bottom: 40px;
-            background: rgba(0, 0, 0, 0.3);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-        }
-        header h1 { 
-            font-size: 3.5rem; margin: 0; 
-            color: var(--cor-secundaria); 
-            text-transform: uppercase; letter-spacing: 4px; 
-            text-shadow: 0 0 20px rgba(251, 192, 45, 0.5);
-        }
-        header p { font-size: 1.3rem; color: var(--cor-primaria); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        header { text-align: center; padding: 40px 0; border-bottom: 3px solid var(--cor-primaria); margin-bottom: 30px; }
+        header h1 { font-size: 3rem; margin: 0; color: var(--cor-secundaria); text-transform: uppercase; letter-spacing: 2px; }
+        header p { font-size: 1.2rem; color: var(--cor-primaria); font-weight: 600; }
         
-        /* Efeito de Card Tecnológico */
-        .step { 
-            background: var(--cor-card); 
-            backdrop-filter: blur(10px);
-            border-radius: 20px; padding: 30px; margin-bottom: 35px; 
-            border: 1px solid rgba(0, 212, 255, 0.2); 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
-            transition: transform 0.3s ease, border-color 0.3s ease;
-        }
-        .step:hover {
-            transform: translateY(-5px);
-            border-color: var(--cor-primaria);
-        }
-        .step h2 { color: var(--cor-secundaria); margin-top: 0; font-weight: 800; border-bottom: 1px solid rgba(251, 192, 45, 0.2); padding-bottom: 10px; }
+        .step { background: var(--cor-card); border-radius: 15px; padding: 30px; margin-bottom: 30px; border-left: 5px solid var(--cor-primaria); box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        .step h2 { color: var(--cor-secundaria); margin-top: 0; display: flex; align-items: center; gap: 10px; }
         
-        .video-container { 
-            position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; 
-            border-radius: 12px; margin-top: 20px; 
-            box-shadow: 0 0 20px rgba(0,0,0,0.8);
-            border: 2px solid #333;
-        }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px; margin-top: 20px; background: #000; }
         .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
         
-        /* Botões com Estilo de Interface Gamer */
-        .btn-action { 
-            display: inline-block; background-color: var(--cor-primaria); color: #000; 
-            padding: 18px 30px; text-decoration: none; border-radius: 12px; 
-            font-weight: 800; font-size: 1.1rem; margin-top: 15px; 
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
-            text-align: center; border: none; cursor: pointer; width: 100%; 
-            box-sizing: border-box; text-transform: uppercase;
-            box-shadow: var(--brilho-neon);
-        }
-        .btn-action:hover { 
-            background-color: #fff; transform: scale(1.02); 
-            box-shadow: 0 0 30px rgba(0, 212, 255, 0.6);
-        }
+        .btn-action { display: inline-block; background-color: var(--cor-primaria); color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.1rem; margin-top: 15px; transition: all 0.3s ease; text-align: center; border: none; cursor: pointer; width: 100%; box-sizing: border-box; }
 
-        /* --- POPUP ULTRA TECH --- */
+        /* --- ESTILO DO POPUP DE VENDAS --- */
         .overlay-ad {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0, 0, 0, 0.9); display: flex;
-            align-items: center; justify-content: center; z-index: 9999;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
         }
-        .sidebar-ad {
-            position: relative; width: 90%; max-width: 350px;
-            background: #1a1a1d; border: 3px solid var(--cor-primaria);
-            border-radius: 25px; padding: 25px; text-align: center;
-            box-shadow: 0 0 50px rgba(0, 212, 255, 0.3);
-            animation: popIn 0.5s ease-out;
-        }
-        @keyframes popIn { from { opacity: 0; transform: translateY(50px); } to { opacity: 1; transform: translateY(0); } }
-        .close-ad {
-            position: absolute; top: -15px; right: -15px; background: #ff4444;
-            color: white; border: 3px solid #1a1a1d; border-radius: 50%;
-            width: 40px; height: 40px; cursor: pointer; font-weight: 900;
-        }
-        .sidebar-ad img { width: 100%; border-radius: 15px; filter: drop-shadow(0 0 10px rgba(0,212,255,0.4)); }
-        .sidebar-ad .price { font-size: 2.5rem; color: var(--cor-secundaria); font-weight: 800; margin: 15px 0; text-shadow: 0 0 10px rgba(251, 192, 45, 0.4); }
-        .sidebar-ad .btn-buy { background: var(--cor-whatsapp); color: #000; padding: 15px; border-radius: 12px; text-decoration: none; font-weight: 800; display: block; }
 
-        /* Área de Pagamento Estilo Painel */
-        .payment-section { 
-            background: linear-gradient(145deg, #1e1e1e, #0a0a0c); 
-            padding: 40px; border-radius: 25px; text-align: center; 
-            border: 2px solid var(--cor-pagamento); margin-top: 50px; 
-            box-shadow: 0 0 25px rgba(255, 77, 0, 0.2);
+        .sidebar-ad {
+            position: relative;
+            width: 90%;
+            max-width: 320px;
+            background: var(--cor-card);
+            border: 3px solid var(--cor-secundaria);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(251, 192, 45, 0.4);
+            animation: popIn 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
         }
-        .btn-pay { background-color: var(--cor-pagamento); color: white; padding: 20px 40px; font-size: 1.5rem; box-shadow: 0 0 15px rgba(255, 77, 0, 0.4); }
-        
-        .pix-container { 
-            margin-top: 25px; padding: 25px; background: rgba(50, 188, 173, 0.1); 
-            border-radius: 15px; border: 1px solid var(--cor-pix); 
+
+        @keyframes popIn {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
         }
-        .btn-pix-copy { background-color: var(--cor-pix); color: #000; border: none; padding: 18px; width: 100%; border-radius: 12px; font-weight: 800; cursor: pointer; font-size: 1.1rem; }
-        
-        .footer { text-align: center; padding: 50px; font-size: 1rem; color: #555; font-weight: 600; letter-spacing: 1px; }
-        
-        .whatsapp-fixo { 
-            position: fixed; bottom: 20px; right: 20px; 
-            background-color: var(--cor-whatsapp); color: #000; 
-            padding: 15px 25px; border-radius: 50px; text-decoration: none; 
-            font-weight: 900; z-index: 1000; box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
-            transition: 0.3s;
+
+        .close-ad {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            background: #ff4444;
+            color: white;
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            font-weight: 800;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
         }
-        .whatsapp-fixo:hover { transform: scale(1.1); }
+
+        .sidebar-ad img { width: 100%; border-radius: 10px; margin-bottom: 10px; }
+        .sidebar-ad h3 { font-size: 1.2rem; margin: 10px 0; color: #fff; font-weight: 800; }
+        .sidebar-ad .price { font-size: 2rem; color: var(--cor-secundaria); font-weight: 800; display: block; margin-bottom: 15px; }
+        .sidebar-ad .btn-buy { background: var(--cor-whatsapp); color: #000; padding: 15px; border-radius: 10px; text-decoration: none; font-weight: 800; display: block; font-size: 1rem; text-transform: uppercase; }
+
+        /* --- FIM DO ESTILO POPUP --- */
+
+        .payment-section { background: linear-gradient(145deg, #252525, #121212); padding: 40px; border-radius: 20px; text-align: center; border: 2px dashed var(--cor-pagamento); margin-top: 50px; }
+        .btn-pay { background-color: var(--cor-pagamento); color: white; padding: 20px 40px; font-size: 1.5rem; text-transform: uppercase; }
+        
+        .pix-container { margin-top: 25px; padding: 20px; background: #2a2a2a; border-radius: 15px; border: 1px solid var(--cor-pix); }
+        .btn-pix-copy { background-color: var(--cor-pix); color: white; border: none; padding: 15px; width: 100%; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1.1rem; }
+        
+        .footer { text-align: center; padding: 40px; font-size: 0.9rem; color: #666; }
+        .whatsapp-fixo { position: fixed; bottom: 20px; right: 20px; background-color: #25d366; color: white; padding: 15px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; z-index: 1000; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
 
         @media (max-width: 600px) {
             header h1 { font-size: 2.2rem; }
-            .step { padding: 20px; }
         }
     </style>
 </head>
@@ -145,71 +127,73 @@
         <div class="sidebar-ad">
             <button class="close-ad" onclick="fecharBanner()">X</button>
             <img src="https://www.novacanaapage.com.br/uploads/images/zpgyfco6bhzng9hnr4beksnxa4kq/w_1600/Multifuncional--37-.png" alt="TV Box">
-            <h3 style="color: #fff; letter-spacing: 1px;">SISTEMA TV BOX 4K</h3>
+            <h3>TV BOX 4K COMPLETO</h3>
             <span class="price">R$ 135,00</span>
-            <a href="https://wa.me/5511975719510?text=Olá Yuri, quero aproveitar a oferta do TV Box de R$135!" target="_blank" class="btn-buy">🛒 ADQUIRIR AGORA</a>
+            <a href="https://wa.me/5511975719510?text=Olá Yuri, quero aproveitar a oferta do TV Box de R$135!" target="_blank" class="btn-buy">EU QUERO AGORA!</a>
         </div>
     </div>
 
     <header>
         <div class="container">
             <h1>Yuri Canais</h1>
-            <p>Central de Treinamento IPTV High-Tech</p>
+            <p>Tutorial Passo a Passo para TV Box</p>
         </div>
     </header>
 
     <div class="container">
         
         <div class="step">
-            <h2><span style="color:var(--cor-primaria)">01.</span> APLICATIVO DOWNLOADER</h2>
-            <p>Siga as instruções do vídeo abaixo para preparar seu dispositivo para o próximo nível de entretenimento.</p>
+            <h2>PASSO 1: Como baixar o aplicativo Downloader</h2>
+            <p>Siga as instruções do vídeo abaixo para preparar seu TV Box e instalar o aplicativo necessário para os downloads.</p>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/N28tF65AJTs" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
 
         <div class="step">
-            <h2><span style="color:var(--cor-primaria)">02.</span> CATÁLOGO DE APPS</h2>
-            <p>Selecione a interface que melhor combina com você. Clique abaixo, escolha e salve seu código exclusivo.</p>
-            <a href="https://lojasat.com/" target="_blank" class="btn-action">ACESSAR LOJA DE APLICATIVOS</a>
+            <h2>PASSO 2: Escolha seu Aplicativo</h2>
+            <p>Clique no botão abaixo para ver a lista de aplicativos disponíveis. <strong>Após escolher o ideal, anote o código de download</strong> e volte aqui para o Passo 3.</p>
+            <a href="https://lojasat.com/" target="_blank" class="btn-action">Clique aqui para escolher o Aplicativo</a>
         </div>
 
         <div class="step">
-            <h2><span style="color:var(--cor-primaria)">03.</span> ATIVAÇÃO FINAL</h2>
-            <p>Insira o código obtido e finalize a configuração do seu streaming profissional.</p>
+            <h2>PASSO 3: Como usar o código de download</h2>
+            <p>Agora que você já tem o código do seu aplicativo, veja no vídeo abaixo como inseri-lo no Downloader para concluir a instalação.</p>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/LvGxMykEgAY" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
 
         <div class="payment-section">
-            <h3 style="color: var(--cor-pagamento); font-size: 1.8rem;">CENTRAL DO ASSINANTE</h3>
-            <p>Renove sua experiência ou faça seu primeiro upgrade abaixo:</p>
+            <h3>Já é assinante?</h3>
+            <p>Se você já conhece nossos serviços e deseja realizar o pagamento da sua mensalidade, escolha uma das opções abaixo:</p>
             
-            <a href="https://pag.ae/81t8TcEM2" target="_blank" class="btn-action btn-pay">Pagar via Cartão de Crédito</a>
+            <a href="https://pag.ae/81t8TcEM2" target="_blank" class="btn-action btn-pay">Pagar via cartão de crédito</a>
 
             <div class="pix-container">
-                <h4 style="color: var(--cor-pix); margin-top: 0; font-size: 1.2rem;">TRANSFERÊNCIA INSTANTÂNEA (PIX)</h4>
-                <button class="btn-pix-copy" onclick="copiarChave()">COPIAR CHAVE PIX</button>
-                <p id="feedback" style="display:none; color: var(--cor-whatsapp); font-size: 1rem; margin-top: 10px; font-weight: bold;">✅ CÓDIGO COPIADO COM SUCESSO!</p>
+                <h4 style="color: var(--cor-pix); margin-top: 0;">Pagamento via Pix</h4>
+                <button class="btn-pix-copy" onclick="copiarChave()">CLIQUE PARA COPIAR CHAVE PIX</button>
+                <p id="feedback" style="display:none; color: var(--cor-whatsapp); font-size: 1rem; margin-top: 10px; font-weight: bold;">✅ Chave Copiada!</p>
             </div>
 
-            <button onclick="mandarZap()" class="btn-action" style="background-color: var(--cor-whatsapp); margin-top: 25px; color: #000;">ENVIAR COMPROVANTE VIA WHATSAPP</button>
+            <button onclick="mandarZap()" class="btn-action" style="background-color: var(--cor-whatsapp); margin-top: 20px;">ENVIAR COMPROVANTE NO WHATSAPP</button>
         </div>
 
         <div class="footer">
-            <p>PROTOCOL Yuri Canais &copy; 2026 - ENCRYPTED SYSTEM</p>
+            <p>&copy; 2024 Yuri Canais - Todos os direitos reservados.</p>
         </div>
 
     </div>
 
-    <a href="https://wa.me/5511975719510?text=Olá Yuri, vim pelo site e preciso de suporte!" class="whatsapp-fixo" target="_blank">💬 SUPORTE OPERACIONAL</a>
+    <a href="https://wa.me/5511975719510?text=Olá Yuri, vim pelo site e preciso de suporte!" class="whatsapp-fixo" target="_blank">Suporte no WhatsApp</a>
 
     <script>
+        // Função para fechar o popup
         function fecharBanner() {
             document.getElementById('overlay').style.display = 'none';
         }
 
+        // Fecha se clicar fora do card
         window.onclick = function(event) {
             let overlay = document.getElementById('overlay');
             if (event.target == overlay) {
